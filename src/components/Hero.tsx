@@ -58,7 +58,7 @@ export const Hero = memo(function Hero() {
             <h1 className="flex flex-col items-center md:items-start gap-2 md:gap-4 z-10 relative">
               <span className="block">Olá,</span>
               <div className="flex items-center gap-2 whitespace-nowrap">
-                <span>Eu sou&nbsp;</span>
+                <span>sou&nbsp;</span>
                 <motion.span
                   className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-emerald-600 transition-all duration-300"
                   whileHover={

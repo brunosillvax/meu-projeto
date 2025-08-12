@@ -1,102 +1,115 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https://darylgatt.dev; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://formspree.io; object-src 'none'; frame-ancestors 'none'; base-uri 'self'" />
-    <meta name="referrer" content="no-referrer" />
-    
-    <!-- Primary Meta Tags -->
-    <title>bruno sillva | Cybersecurity</title>
-    <meta name="description" content="Explore Daryl Gatt's cybersecurity portfolio showcasing expertise in red teaming, exploit development, malware analysis, and offensive security research. Discover innovative security solutions and cutting-edge cybersecurity projects." />
-    <meta name="keywords" content="Cybersecurity, Red Teaming, Daryl Gatt, Malware Analysis, Exploit Development, Offensive Security, Ethical Hacking, Security Research, Penetration Testing" />
-    <meta name="author" content="Daryl Gatt" />
-    <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://darylgatt.dev/" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https://darylgatt.dev; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://formspree.io; object-src 'none'; frame-ancestors 'none'; base-uri 'self'" />
+  <meta name="referrer" content="no-referrer" />
+  
+  <title>bruno sillva | Cybersecurity</title>
+  <meta name="description" content="Explore Daryl Gatt's cybersecurity portfolio showcasing expertise in red teaming, exploit development, malware analysis, and offensive security research." />
+  <meta name="keywords" content="Cybersecurity, Red Teaming, Daryl Gatt, Malware Analysis, Exploit Development, Offensive Security, Ethical Hacking, Security Research, Penetration Testing" />
+  <meta name="author" content="Daryl Gatt" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://darylgatt.dev/" />
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://darylgatt.dev/" />
-    <meta property="og:title" content="Daryl Gatt | Cybersecurity" />
-    <meta property="og:description" content="Explore Daryl Gatt's cybersecurity portfolio showcasing expertise in red teaming, exploit development, malware analysis, and offensive security research." />
-    <meta property="og:image" content="https://darylgatt.dev/assets/website_logo.jpg" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://darylgatt.dev/" />
+  <meta property="og:title" content="Daryl Gatt | Cybersecurity" />
+  <meta property="og:description" content="Explore Daryl Gatt's cybersecurity portfolio showcasing expertise in red teaming, exploit development, malware analysis, and offensive security research." />
+  <meta property="og:image" content="https://darylgatt.dev/assets/website_logo.jpg" />
 
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content="https://darylgatt.dev/" />
-    <meta name="twitter:title" content="Daryl Gatt | Cybersecurity" />
-    <meta name="twitter:description" content="Explore Daryl Gatt's cybersecurity portfolio showcasing expertise in red teaming, exploit development, malware analysis, and offensive security research." />
-    <meta name="twitter:image" content="https://darylgatt.dev/assets/website_logo.jpg" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://darylgatt.dev/" />
+  <meta name="twitter:title" content="Daryl Gatt | Cybersecurity" />
+  <meta name="twitter:description" content="Explore Daryl Gatt's cybersecurity portfolio showcasing expertise in red teaming, exploit development, malware analysis, and offensive security research." />
+  <meta name="twitter:image" content="https://darylgatt.dev/assets/website_logo.jpg" />
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=%VITE_GA_ID%"></script>
-    <script type="module">
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=%VITE_GA_ID%"></script>
+  <script type="module">
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', import.meta.env.VITE_GA_ID);
+  </script>
 
-      gtag('config', import.meta.env.VITE_GA_ID);
-    </script>
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Daryl Gatt",
+    "url": "https://darylgatt.dev",
+    "image": "https://darylgatt.dev/assets/website_logo.jpg",
+    "sameAs": [
+      "https://github.com/phantom0004",
+      "https://mt.linkedin.com/in/daryl-gatt-web3"
+    ],
+    "jobTitle": "Cybersecurity Professional",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Independent Security Researcher"
+    },
+    "description": "Cybersecurity expert specializing in red teaming, exploit development, and offensive security research."
+  }
+  </script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <meta name="theme-color" content="#000000" />
 
-    <!-- Structured Data -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Daryl Gatt",
-      "url": "https://darylgatt.dev",
-      "image": "https://darylgatt.dev/assets/website_logo.jpg",
-      "sameAs": [
-        "https://github.com/phantom0004",
-        "https://mt.linkedin.com/in/daryl-gatt-web3"
-      ],
-      "jobTitle": "Cybersecurity Professional",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Independent Security Researcher"
-      },
-      "description": "Cybersecurity expert specializing in red teaming, exploit development, and offensive security research."
+  <script>
+    const savedTheme = localStorage.getItem('theme');
+    const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+    const theme = savedTheme || (prefersLight ? 'light' : 'dark');
+    document.documentElement.dataset.theme = theme;
+    if (theme === 'dark') document.documentElement.classList.add('dark');
+  </script>
+  
+  <link rel="icon" type="image/jpeg" href="/assets/website_logo.jpg" />
+  <link rel="preload" as="image" href="/assets/portfolio_image.png" />
+  
+  <style>
+    .skip-nav {
+      position: absolute;
+      top: -9999px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #22c55e;
+      color: black;
+      padding: 1rem;
+      z-index: 9999;
+      border-radius: 0 0 0.5rem 0.5rem;
+      text-decoration: none;
     }
-    </script>
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <meta name="theme-color" content="#000000" />
+    .skip-nav:focus {
+      top: 0;
+    }
+  </style>
+</head>
+<body>
+  <a href="#main-content" class="skip-nav">Skip to main content</a>
 
-    <script>
-      const savedTheme = localStorage.getItem('theme');
-      const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
-      const theme = savedTheme || (prefersLight ? 'light' : 'dark');
-      document.documentElement.dataset.theme = theme;
-      if (theme === 'dark') document.documentElement.classList.add('dark');
-    </script>
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/jpeg" href="/assets/website_logo.jpg" />
-    <link rel="preload" as="image" href="/assets/portfolio_image.png" />
-    
-    <!-- Skip Navigation -->
-    <style>
-      .skip-nav {
-        position: absolute;
-        top: -9999px;
-        left: 50%;
-        transform: translateX(-50%);
-        background: #22c55e;
-        color: black;
-        padding: 1rem;
-        z-index: 9999;
-        border-radius: 0 0 0.5rem 0.5rem;
-        text-decoration: none;
+  <!-- Música de fundo -->
+  <audio id="bg-music" autoplay loop>
+    <source src="/assets/musica.mp3" type="audio/mpeg">
+    Seu navegador não suporta áudio HTML5.
+  </audio>
+
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+
+  <!-- Força a tocar caso o autoplay seja bloqueado -->
+  <script>
+    document.addEventListener('click', function () {
+      const audio = document.getElementById('bg-music');
+      if (audio && audio.paused) {
+        audio.play().catch(() => {});
       }
-      .skip-nav:focus {
-        top: 0;
-      }
-    </style>
-  </head>
-  <body>
-    <a href="#main-content" class="skip-nav">Skip to main content</a>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    });
+  </script>
+</body>
 </html>
